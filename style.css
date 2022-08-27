@@ -1,0 +1,181 @@
+body{
+ background-color: hsl(216, 12%, 8%);
+ font-family: 'Overpass', sans-serif;
+ 
+}
+
+.StyleContainer{
+ width: 380px;
+ height: 420px;
+ margin: auto;
+ margin-top: 200px;
+ border-radius: 35px;
+ padding: 40px;
+ background-color: hsl(213, 19%, 18%);
+}
+
+.StarBtn{
+ width: 50px;
+ height: 50px;
+ border: 1px solid hsl(216, 12%, 8%);
+ border-radius: 50%;
+ background-color:hsl(216, 12%, 54%);
+ opacity: 70%; 
+}
+ img.starBtn{
+ margin-left: 18px;
+ margin-bottom: 40px;
+ margin-top: 15px;
+ margin-right: 5px;
+}
+
+h2{
+ color: hsl(0, 0%, 100%);
+
+}
+
+
+p.RatingText{
+color: hsl(217, 12%, 63%);
+padding-right: 20px;
+}
+
+
+.RatingNumbers{
+ justify-content: space-between;
+ width: 100%;
+ display: flex;
+ margin-top: 15px;
+}
+
+
+.numbers button {
+ font-size: 20px;
+ color: hsl(217, 12%, 63%);
+ height: 60px;
+ width: 60px;
+ border-radius: 50%;
+ border: none;
+ text-align: center;
+ background-color:hsl(216, 12%, 54%);
+ opacity: 90%;
+}
+.numbers button:hover {
+ color: white;
+ cursor: pointer;
+ background-color: hsl(25, 97%, 53%);
+}
+
+#button1{
+ margin-left: 5px;
+ margin-right: 5px;
+ 
+}
+#button2{
+ margin-left: 5px;
+ margin-right: 5px;
+}
+#button3{
+ margin-left: 5px;
+ margin-right: 5px;
+}
+#button4{
+ margin-left: 5px;
+ margin-right: 5px;
+}
+#button5{
+ margin-left: 5px;
+ margin-right: 5px;
+}
+
+
+
+.RatingContainer{
+ margin-top: 50px;
+ 
+}
+
+
+
+#SubmitBttn {
+ width: 100%;
+ background: hsl(25, 97%, 53%);
+ color: hsl(0, 0%, 100%);
+ padding: 15px 40px;
+ text-align: center;
+ border-radius: 80px;
+ font-weight: 400;
+ border: none;
+ letter-spacing: 3px;
+ text-transform: uppercase;
+}
+
+#SubmitBttn:hover {
+ cursor: pointer;
+ background: white;
+ color: hsl(25, 97%, 53%);
+}
+
+.CardThankyou{
+ display: none;
+}
+
+.MainFeedback button{
+ color: hsl(25, 97%, 53%);
+ padding-right: 0px;
+ background-color: hsl(216, 12%, 54%);
+ border: 2px;
+ border-radius: 20px;
+ width: 155px;
+ height: 30px;
+ margin-left: 90px;
+ margin-right: 100px;
+ opacity: 90%;
+ font-weight: 600;
+}
+
+
+.FeedbackText{
+ margin-top: 50px;
+}
+
+
+
+.FeedbackText p{
+ color: hsl(216, 12%, 8%);
+ text-align: center;
+
+} 
+
+img.Feedback{
+ justify-content: center;
+}
+
+h3.ThankYou{
+ color: hsl(0, 0%, 100%);
+ font-weight: bolder;
+ font-size: 30px;
+ text-align: center;
+
+}
+
+
+p.Appreciation{
+ color: hsl(217, 12%, 63%);
+ font-size: 17px;
+ letter-spacing: 4;
+ margin-top: -10px;
+}
+
+
+.CardThankyou{
+ margin-top: 50px;
+}
+
+.MainFeedback{
+ text-align: center;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
